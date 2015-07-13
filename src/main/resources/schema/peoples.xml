@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:test="http://yao.cn/schema/people"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+http://yao.cn/schema/people http://yao.cn/schema/people.xsd">
+    <test:people id="people0" name="robin0" age="22"/>
+    <test:people id="people1" name="robin1" age="23"/>
+    <test:people id="people2" name="robin2" age="24"/>
+</beans>
