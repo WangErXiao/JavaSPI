@@ -12,10 +12,7 @@ public class PeopleBeanDefinitionParser extends AbstractSingleBeanDefinitionPars
     protected void doParse(Element element, BeanDefinitionBuilder bean) {
         String name = element.getAttribute("name");
         String age = element.getAttribute("age");
-        String id = element.getAttribute("id");
-        if (StringUtils.hasText(id)) {
-            bean.addPropertyValue("id", id);
-        }
+
         if (StringUtils.hasText(name)) {
             bean.addPropertyValue("name", name);
         }

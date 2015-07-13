@@ -15,9 +15,9 @@ public class TestPeopleSchema {
         People people0= context.getBean("people0",People.class);
         People people1= context.getBean("people1",People.class);
         People people2= context.getBean("people2",People.class);
-        System.out.println(people0.getId()+ " "+people0.getName()+" "+people0.getAge());
-        System.out.println(people1.getId()+ " "+people1.getName()+" "+people1.getAge());
-        System.out.println(people2.getId()+ " "+people2.getName()+" "+people2.getAge());
+        System.out.println(people0.getName()+" "+people0.getAge());
+        System.out.println(people1.getName()+" "+people1.getAge());
+        System.out.println(people2.getName()+" "+people2.getAge());
 
     }
 }
