@@ -10,6 +10,7 @@
     <properties>
         <spring.version>4.1.0.RELEASE</spring.version>
         <junit.version>4.10</junit.version>
+        <javassist.version>3.15.0-GA</javassist.version>
     </properties>
 
     <dependencies>
@@ -87,6 +88,12 @@
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.javassist</groupId>
+            <artifactId>javassist</artifactId>
+            <version>${javassist.version}</version>
         </dependency>
 
 
