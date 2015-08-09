@@ -2,7 +2,6 @@ package com.yao.common;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import sun.tools.java.ClassPath;
 
 import java.net.URL;
 import java.security.CodeSource;

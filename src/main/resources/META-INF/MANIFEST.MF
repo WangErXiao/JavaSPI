@@ -1,0 +1,3 @@
+Premain-Class: com.yao.intrumentation.MyAgent
+
+
