@@ -12,7 +12,7 @@ public class MultiCastReceive {
     public static void main(String[]args){
         try {
             //IP组
-            InetAddress ip = InetAddress.getByName("228.5.6.7");
+            InetAddress ip = InetAddress.getByName("192.168.23.255");
             //组播监听端口
             MulticastSocket s = new MulticastSocket(6789);
             //加入该组
